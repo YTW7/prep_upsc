@@ -19,7 +19,7 @@ const Jee = () => {
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-              The JEE Community
+              The INDIAN HISTORY Subject Community
               <br class="hidden lg:inline-block" />
             </h1>
             <p class="mb-8 leading-relaxed font-bold text-white">
@@ -31,7 +31,7 @@ const Jee = () => {
             </div>
           </div>
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ">
-            <Image height={100} width={100} src="/jee.png" />
+            <Image height={70} width={180} src="/history.png" />
           </div>
         </div>
 
@@ -40,15 +40,15 @@ const Jee = () => {
           <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <img
               class="lg:h-48 md:h-36 w-full object-cover object-center"
-              src="physics.jpg"
+              src="timeline.jpg"
               alt="blog"
             />
             <div class="p-6">
               <h2 class="tracking-widest text-xs title-font font-medium text-white mb-1">
-                PHYSICS
+                INDIAN HISTORY
               </h2>
               <h1 class="title-font text-lg font-medium text-white mb-3">
-                Kinematics Guidance for JEE
+                Any innovative technique to memorize huge list of events.
               </h1>
 
               <div class="flex items-center flex-wrap ">
