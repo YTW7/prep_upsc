@@ -28,7 +28,7 @@ const Navbar = ({ connected, publicKey }) => {
                 smooth={true}
                 offset={20}
                 duration={1000}
-                className="mx-4 cursor-pointer hover:text-yellow-400"
+                className="mx-4 cursor-pointer hover:text-orange-400"
               >
                 HOME
               </Link>
@@ -38,7 +38,7 @@ const Navbar = ({ connected, publicKey }) => {
                 smooth={true}
                 offset={20}
                 duration={1000}
-                className="mx-4 cursor-pointer hover:text-yellow-400"
+                className="mx-4 cursor-pointer hover:text-orange-400"
               >
                 ABOUT US
               </Link>
@@ -48,7 +48,7 @@ const Navbar = ({ connected, publicKey }) => {
                 smooth={true}
                 offset={20}
                 duration={1000}
-                className="mx-4 cursor-pointer hover:text-yellow-400"
+                className="mx-4 cursor-pointer hover:text-orange-400"
               >
                 COMMUNITIES
               </Link>
@@ -59,8 +59,8 @@ const Navbar = ({ connected, publicKey }) => {
               {/* <svg src="../public/logo.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
       </svg> */}
-              <img src="/logo1.png" class="w-10 h-10" alt="logo" />
-              <span class="ml-3 text-xl text-white">Get Help</span>
+              <img src="/logo.png" class="w-10 h-10 rounded-lg " alt="logo" />
+              <span class="ml-3 text-xl text-white">PREP-UPSC</span>
             </a>
             <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
               {/* <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0" >
@@ -73,7 +73,7 @@ const Navbar = ({ connected, publicKey }) => {
               <button
                 id="theme-toggle"
                 type="button"
-                class="text-red-500 dark:text-gray-400 hover:bg-gray-600 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-xl p-2.5"
+                class="text-orange-500 dark:text-gray-400 hover:bg-gray-600 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-xl p-2.5"
               >
                 <svg
                   id="theme-toggle-dark-icon"
@@ -100,11 +100,11 @@ const Navbar = ({ connected, publicKey }) => {
               </button>
               <WalletMultiButton className="phantom-button">
                 <img
-                  class="w-8 h-8 mr-2 rounded-full bg-red-500"
+                  class="w-8 h-8 mr-2 rounded-full bg-orange-500"
                   src="https://cdn.icon-icons.com/icons2/2645/PNG/512/person_circle_icon_159926.png"
                   alt=""
                 />
-                <span className="text-sm font-black text-red-600">
+                <span className="text-sm font-black text-orange-500">
                   {connected
                     ? truncate(publicKey.toString())
                     : "Connect Wallet"}

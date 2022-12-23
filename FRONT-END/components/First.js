@@ -11,11 +11,11 @@ const First = () => {
             <h1 class="title-font sm:text-6xl text-4xl font-bold mb-4 ml-10 text-white font-ubuntu capitalize">
               welcome To
             </h1>
-            <h1 class="title-font sm:text-6xl text-4xl mx-5 p-8 mt-10  bg-blue-400 rounded-lg font-thin mb-4  text-white font-ubuntu capitalize">
-              <div class="font-bold">Get Help</div>
+            <h1 class="title-font sm:text-6xl text-4xl mx-5 p-8 mt-10  bg-orange-500 rounded-lg font-thin mb-4  text-white font-ubuntu capitalize">
+              <div class="font-bold">PREP-UPSC</div>
               <br /> 
               <div className='bg-black rounded-xl p-5' >
-              One-Stop Decentralized Platform for Competitive Exam Aspirants
+              One-Stop Decentralized Platform for UPSC Exam Aspirants
               </div> 
             </h1>
              

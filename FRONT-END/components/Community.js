@@ -20,24 +20,21 @@ const Community = () => {
                   width={180}
                   height={70}
                   className="mx-auto mt-5"
-                  src="/jee.png"
+                  src="/history.png"
                   alt="blog"
                 />
                 <div class="p-6">
                   <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                    Competetive Exam Community
+                  General Studies Paper-1 Subject Community
                   </h2>
                   <h1 class="title-font text-lg font-medium text-white mb-3">
-                    JEE
+                    INDIAN HISTORY
                   </h1>
                   <p class="leading-relaxed mb-3">
-                    The Joint Entrance Examination, JEE Main is conducted for
-                    admission to BE/BTech and BArch/BPlan courses at NITs,
-                    IIITs, other Centrally Funded Technical Institutions
-                    (CFTIs), Institutions/Universities funded/recognized by
-                    participating State Governments. JEE Main is also an
-                    eligibility test for JEE Advanced, which is conducted for
-                    admission to IITs. They are considered as institutes of national importance.
+                  Modern Indian History from about the middle of the eighteenth century until the present- significant events, personalities, issues.
+The Freedom Struggle — its various stages and important contributors/contributions from different parts of the country.
+Post-independence Consolidation and Reorganization within the country.
+History of the World will include events from the 18th century such as the Industrial Revolution,etc.
                   </p>
                   <div class="flex items-center flex-wrap ">
                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
@@ -58,25 +55,146 @@ const Community = () => {
                   width={180}
                   height={70}
                   className="mx-auto mt-5"
-                  src="/neet.png"
+                  src="/art.png"
                   alt="blog"
                 />
                 <div class="p-6">
                   <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                    Competetive Exam Community
+                  General Studies Paper-1 Subject Community
                   </h2>
                   <h1 class="title-font text-lg font-medium text-white mb-3">
-                    NEET
+                    ART & CULTURE
                   </h1>
                   <p class="leading-relaxed mb-3">
-                    NEET is the only national-level medical entrance examination
-                    for admission into MBBS, BDS, B.Sc. Nursing, AYUSH courses
-                    offered by top government and private medical colleges in
-                    India including AIIMS and JIPMER. The exam is conducted by
-                    National Testing Agency (NTA), which provides the results to
-                    the Directorate General of Health Services under Ministry of
-                    Health and Family Welfare and State Counselling Authorities
-                    for seat allocation.
+                  Salient aspects of Art Forms, Literature and Architecture from ancient to modern times.
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+
+                  </p>
+                  <div class="flex items-center flex-wrap">
+                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                      <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                        <Link href="/Neet">JOIN NOW</Link>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* 3rd card */}
+            <div class="p-4 md:w-1/3">
+              <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <Image
+                  width={180}
+                  height={70}
+                  className="mx-auto mt-5"
+                  src="/geo.png"
+                  alt="blog"
+                />
+                <div class="p-6">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                  General Studies Paper-1 Subject Community
+                  </h2>
+                  <h1 class="title-font text-lg font-medium text-white mb-3">
+                    GEOGRAPHY
+                  </h1>
+                  <p class="leading-relaxed mb-3">
+                  Salient features of World’s Physical Geography.
+Distribution of Key Natural Resources across the world (including South Asia and the Indian sub-continent); factors responsible for the location of primary, secondary, and tertiary sector industries in various parts of the world (including India).
+Important Geophysical Phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features .
+                  </p>
+                  <div class="flex items-center flex-wrap">
+                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                      <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                        <Link href="/Neet">JOIN NOW</Link>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* 4th card */}
+            <div class="p-4 md:w-1/3">
+              <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <Image
+                  width={180}
+                  height={70}
+                  className="mx-auto mt-5"
+                  src="/society.png"
+                  alt="blog"
+                />
+                <div class="p-6">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                  General Studies Paper-1 Subject Community
+                  </h2>
+                  <h1 class="title-font text-lg font-medium text-white mb-3">
+                    INDIAN SOCIETY
+                  </h1>
+                  <p class="leading-relaxed mb-3">
+                  Salient features of Indian Society, Diversity of India.
+Role of Women and Women’s Organization, Population and Associated Issues
+Poverty and Developmental issues,
+Urbanization, their problems and their remedies.
+Effects of Globalization on Indian society.
+Social Empowerment
+Communalism
+Regionalism
+Secularism.
+Government policies and interventions
+Governance
+Transparency
+Accountability
+E-governance applications<br /><br />
+                  </p>
+                  <div class="flex items-center flex-wrap">
+                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                      <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                        <Link href="/Neet">JOIN NOW</Link>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* 5th card */}
+            <div class="p-4 md:w-1/3">
+              <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <Image
+                  width={180}
+                  height={70}
+                  className="mx-auto mt-5"
+                  src="/polity.png"
+                  alt="blog"
+                />
+                <div class="p-6">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                  General Studies Paper-2 Subject Community
+                  </h2>
+                  <h1 class="title-font text-lg font-medium text-white mb-3">
+                    POLITY & GOVERNANCE
+                  </h1>
+                  <p class="leading-relaxed mb-3">
+                  Indian Constitution
+Features of Indian Constitution
+Amendments in Indian Constitution
+Provisions
+Constitutional and non-constitutional bodies
+<br />
+<br />
+<br /><br />
+<br />
+<br />
+<br /><br />
+
+
+
                   </p>
                   <div class="flex items-center flex-wrap">
                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
@@ -96,25 +214,26 @@ const Community = () => {
                   width={180}
                   height={70}
                   className="mx-auto mt-5"
-                  src="/gate.png"
+                  src="/justice.png"
                   alt="blog"
                 />
                 <div class="p-6">
                   <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                    Competetive Exam Community
+                  General Studies Paper-2 Subject Community
                   </h2>
                   <h1 class="title-font text-lg font-medium text-white mb-3">
-                    GATE
+                    SOCIAL JUSTICE
                   </h1>
                   <p class="leading-relaxed mb-3">
-                    Graduate Aptitude Test in Engineering is an All-India test
-                    authorized and managed in eight regions across the nation.
-                    The exam is conducted by the GATE Committee, faculty members
-                    from IISc, and seven other IITs on behalf of the Ministry of
-                    Human Resources Development, National Coordinating Board,
-                    and Department of Education. The purpose of the GATE exam is
-                    to test students’ knowledge in subjects like Engineering and
-                    Science.
+                  Issues relating to the development and management of Social Sector/Services
+Issues relating to poverty and hunger.
+<br />
+<br />
+<br /><br />
+<br />
+<br />
+<br /><br />
+<br />
                   </p>
                   <div class="flex items-center flex-wrap ">
                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
