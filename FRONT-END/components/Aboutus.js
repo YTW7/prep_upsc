@@ -37,7 +37,7 @@ export default function Aboutus() {
           <div class="flex flex-wrap -m-12">
             <div class="p-12 md:w-1/2 flex flex-col items-start">
               <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-black text-xs font-medium tracking-widest ">
-                #Get Help
+                #PREP-UPSC
               </span>
               <h2 class="sm:text-xl text-xl title-font font-medium text-gray-900 mt-4 mb-4 bg-yellow-200 p-2 rounded-lg">
                 FLOWCHART
@@ -49,14 +49,14 @@ export default function Aboutus() {
                       1.User Opens
                       Our Platform
                       and
-                      joins his desired
+                      joins his desired subject
                       community...
                       <br />
                       2.User can post queries
-                      and doubts
+                      and doubts by paying some crypto.
                       OR
                       either solve other people's
-                      doubt and earn crypto,
+                      doubt and earn crypto.
 
                     </p>
                     <a
@@ -67,7 +67,7 @@ export default function Aboutus() {
                       {
                         <AiOutlineArrowDown className="mx-1 " />
                       }
-                      <Image src="/logo1.png" height={50} width={50} /> 
+                      <Image src="/logo.png" height={50} width={50} class="rounded-lg"/> 
 
                     </a>
                   </>
@@ -85,7 +85,7 @@ export default function Aboutus() {
                         <AiOutlineArrowUp className="mx-1 " />
 
                       }
-                       <Image src="/logo1.png" height={50} width={50} /> 
+                       <Image src="/logo.png" height={50} width={50} class="rounded-lg"/> 
                     </a>
                   </>
                 )}
@@ -98,7 +98,7 @@ export default function Aboutus() {
 
             <div class="p-12 md:w-1/2 flex flex-col items-start">
               <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-black text-xs font-medium tracking-widest">
-               #Get Help
+              #PREP-UPSC
               </span>
               <h2 class="sm:text-xl text-xl title-font font-medium text-gray-900 mt-4 mb-4 bg-blue-300 p-2 rounded-lg ">
                 OUR VISION
@@ -111,8 +111,8 @@ export default function Aboutus() {
                       students over EdTech platforms while preparing for
                       competetive exams whereas they can get
                       guidance and doubt solutions
-                      from our
-                      Community Platform "Get Help"
+                      from our Subject-Based
+                      Community Platform "PREP-UPSC"
                       for paying as low as they want,
                       that too in SOL cryptocurrency.
                       <ul className="mt-2">
@@ -133,44 +133,13 @@ export default function Aboutus() {
                       {
                         <AiOutlineArrowDown className="mx-1 " />
                       }
-                       <Image src="/logo1.png" height={50} width={50} /> 
+                       <Image src="/logo.png" height={50} width={50} class="rounded-lg"/> 
                     </a>
                   </>
                 ) : (
                   <>
                     <h6 class="leading-relaxed mb-8 text-lg ">
-                      We AIRS are conducting various lectures, workshops and
-                      mentorship programs to help students realize their
-                      projects. The mission of the society is to expose students
-                      to challenges and new technologies in the field of
-                      electronics and thus to nurture and develop their skills
-                      set in this arena.
-                      <ul className="mt-2">
-                        <li className="mt-2">
-                          1- Aim at bringing out the technological best in
-                          students
-                        </li>
-                        <li className="mt-2">
-                          2- The chief aim of the club is to bring the students
-                          out of their rooms and to expose them to the
-                          challenges awaiting them in the field of circuit
-                          designing, hardware analysis and programming.
-                        </li>
-                        <li className="mt-2">
-                          3- Aim at providing students with the basic knowledge
-                          of electronics but also help them to use the basic
-                          concepts to come up with something constructive and
-                          useful for the society.
-                        </li>
-                        <li>
-                          4- To conduct lecture series, workshops and also
-                          assign projects to students.
-                        </li>
-                        <li className="mt-3">
-                          5-Aim to find hidden talent and to utilize them for
-                          teaching learning process.
-                        </li>
-                      </ul>
+                     
                     </h6>
                     <a
                       onClick={switchView}
@@ -180,7 +149,7 @@ export default function Aboutus() {
                       {
                         <AiOutlineArrowUp className="mx-2 " />
                       }
-                      <Image src="/logo1.png" height={50} width={50} />
+                      <Image src="/logo.png" height={50} width={50} class="rounded-lg"/>
                     </a>
                   </>
                 )}
