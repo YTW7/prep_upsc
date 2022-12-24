@@ -11,7 +11,7 @@
 * On the other hand, they can even solve other community member’s doubt for earning crypto that the other member is willing to pay. 
 * Our project tries to compete with the huge Coaching Industry with our One-to-One community platform solution that runs on Solana BlockChain Network.
 # Tech Stack Used: 
-**NextJS, Rust, Anchor Framework, TailwindCSS, Solana and Replit.**
+**NextJS, Rust, Anchor Framework, TailwindCSS, MongoDB, Solana and Replit.**
 # Github Repository Link:
 **https://github.com/YTW7/prep_upsc**
 # Video Link Explaining the Project and working: 
