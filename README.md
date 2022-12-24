@@ -15,7 +15,7 @@
 # Github Repository Link:
 **https://github.com/YTW7/prep_upsc**
 # Video Link Explaining the Project and working: 
-**https://youtu.**
+**https://youtu.be/vycTM5Wnoss**
 # Prize Tracks Covered: 
 **Solana and Replit**
 # Replit Link:
