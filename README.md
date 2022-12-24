@@ -21,7 +21,7 @@
 # Replit Link:
 **https://replit.com/@YTW7/prepupsc?v=1**
 # Information Architecture:
-![My Image](FRONT-END/project_images/img_arch.JPG)
+![My Image](FRONT-END/project_images/img.JPG)
 
 # Snippets of Our Project:
 ![My Image](FRONT-END/project_images/image1.png)
