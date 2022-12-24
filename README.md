@@ -19,5 +19,5 @@
 # Prize Tracks Covered: 
 **Solana and Replit**
 # Replit Link:
-**https://replit.com/**
+**https://replit.com/@YTW7/prepupsc?v=1**
 # Information Architecture:
