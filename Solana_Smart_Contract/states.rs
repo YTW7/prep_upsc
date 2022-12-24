@@ -13,10 +13,8 @@ pub struct UserProfile{
 
 pub struct CreateHelp{
     pub authority : Pubkey,
-    pub amount : u8,
+    pub amount : String,
     pub title : String,
-    pub message : String,
-    pub name : String,
-    pub img : String,
+    pub description : String,
     pub isResolved : bool,
 }

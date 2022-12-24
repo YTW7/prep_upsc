@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-
+import {toast , ToastContainer} from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 const Jee = () => {
   const [title, setTitle] = useState();
   const [description , setDescription] = useState()
-  const [price , setPrice] = useState()
+  const [price , setPrice] = useState("12 Sol")
   const handlerChange = (e) => {
     if (e.target.name == "title") {
       setTitle(e.target.value);
@@ -13,9 +14,7 @@ const Jee = () => {
     if(e.target.name=="description"){
       setDescription(e.target.value)
     }
-    if(e.target.name="price"){
-      setPrice(e.target.value)
-    }
+    
 
   };
   const onSubmitHandler = async (e) => {
@@ -33,9 +32,11 @@ const Jee = () => {
     setTitle("")
     setDescription("")
     setPrice("")
+   
   };
   return (
     <>
+    <div>
       <section class="text-gray-600 body-font bg-black">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -90,7 +91,7 @@ const Jee = () => {
           >
             <input type="hidden" name="remember" value="true" />
             <div class="-space-y-px rounded-md shadow-sm">
-              <div>
+              <div >
                 <label for="title" class="sr-only">
                   Title
                 </label>
@@ -99,14 +100,14 @@ const Jee = () => {
                   id="title"
                   value={title}
                   name="title"
-                  type="title"
+                  type="text"
                   required
                   class="relative block w-full appearance-none rounded-none rounded-t-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                  placeholder="Your Name"
+                  placeholder="Title"
                 />
               </div>
               
-              <div>
+              <div >
                 <label for="description" class="sr-only">
                   Description
                 </label>
@@ -114,15 +115,15 @@ const Jee = () => {
                   onChange={handlerChange}
                   id="description"
                   name="description"
-                  type="description"
+                  type="text"
                   value={description}
                   autocomplete="current-password"
                   required
                   class="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                  placeholder="Password"
+                  placeholder="Description"
                 />
               </div>
-              <div>
+              <div className="mb-2" >
                 <label for="price" class="sr-only">
                   Price
                 </label>
@@ -130,12 +131,12 @@ const Jee = () => {
                   onChange={handlerChange}
                   id="price"
                   name="price"
-                  type="price"
+                  type="text"
                   value={price}
                   autocomplete="price"
-                  required
+                
                   class="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                  placeholder="News?"
+              
                 />
               </div>
             </div>
@@ -166,6 +167,7 @@ const Jee = () => {
           </form>
         </div>
       </section>
+      </div>
     </>
   );
 };

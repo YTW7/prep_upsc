@@ -6,7 +6,7 @@ declare_id!("6u1uWd6eydeXncFusdd1QCca6yKKu7teW3JJuXCJjMJT");
 
 #[program]
 
-pub mod solana_hackday {
+pub mod hackAminer {
     use super::*;
     pub fn intialize_user(ctx:Context<IntializeUser>) -> Result<()> {
         let user_profile = &mut ctx.accounts.user_profile;
